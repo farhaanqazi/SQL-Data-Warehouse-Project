@@ -3,7 +3,7 @@
 
 ## Overview
 
-Welcome to the **SQL Data Warehouse Project**! This repository contains all the resources for setting up a data warehouse designed for business analytics, reporting, and decision-making. The project utilizes **Medallion Architecture**, consisting of three layers: **Bronze**, **Silver**, and **Gold**, to organize raw, cleansed, and business-ready data for analysis.
+Welcome to the **SQL Data Warehouse Project**! This repository contains all the resources for setting up a data warehouse designed for business analytics, reporting, and decision-making. The project utilises **Medallion Architecture**, consisting of three layers: **Bronze**, **Silver**, and **Gold**, to organise raw, cleansed, and business-ready data for analysis.
 
 The goal of this project is to create a comprehensive data model and provide detailed insights into business-critical metrics like customer behavior, product performance, and sales trends.
 
@@ -28,8 +28,8 @@ The data architecture follows a **Medallion Architecture** with three layers tha
 ![Data Architecture](docs/data_architecture.png)
 
 1. **Bronze Layer**: Raw data from source systems is stored here. Data is ingested into the SQL Server Database from CSV files.
-2. **Silver Layer**: This layer involves data cleansing, standardization, and normalization to prepare the data for analysis.
-3. **Gold Layer**: The final business-ready layer, which contains data modeled into a star schema, optimized for reporting and analytics.
+2. **Silver Layer**: This layer involves data cleansing, standardisation, and normalisation to prepare the data for analysis.
+3. **Gold Layer**: The final business-ready layer, which contains data modeled into a star schema, optimised for reporting and analytics.
 
 ---
 
@@ -99,7 +99,3 @@ Feel free to connect with me on the following platforms:
 - [LinkedIn](https://www.linkedin.com/in/farhaanqazi)
 - [GitHub](https://github.com/farhaanqazi)
 - [Portfolio](https://www.farhaanqazi.com)
-
----
-
-Let me know if you need any adjustments or further details added!
