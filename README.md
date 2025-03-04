@@ -25,7 +25,10 @@ These insights are essential for empowering stakeholders and enabling strategic 
 
 The data architecture follows a **Medallion Architecture** with three layers that structure the data pipeline:
 
-![Data Architecture](docs/data_architecture.png)
+![Data Architecture]
+
+![High Level Data Architecture drawio](https://github.com/user-attachments/assets/3d9089ab-ed0e-48ad-b76e-943109d1acc8)
+
 
 1. **Bronze Layer**: Raw data from source systems is stored here. Data is ingested into the SQL Server Database from CSV files.
 2. **Silver Layer**: This layer involves data cleansing, standardisation, and normalisation to prepare the data for analysis.
